@@ -2,6 +2,7 @@
     background-color: #181818;
     font-family: monospace;
     color: #e3e3e3;
+    font-size: large;
 }
 
 .textbox, .textarea {
@@ -23,12 +24,14 @@
     margin: 5px 5px 5px 5px;
     display: block;
     border: 1px solid #383838;
+    border-radius: 3px;
     padding: 10px;
     text-align: center;
     align-content: center;
     justify-content: center;
     width: 200px;
     height: 200px;
+    
 }
 
 .content-container {
@@ -36,6 +39,48 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.subtle {
+    color: #a3a3a3;
+    font-size: small;
+}
+
+.content-dets {
+    line-height: 0.2px;
+}
+
+.main-content {
+    margin-top: 5px;
+}
+
+.action-btn {
+    padding: 5px;
+    background-color: #181818;
+    color: #e3e3e3;
+    border-color: #383838;
+    border-style: outset;
+    outline: 0;
+    border: 1px solid;
+    border-radius: 3px;
+    font-family: monospace;
+}
+.action-btn:hover {
+    padding: 5px;
+    background-color: #181818;
+    color: #e3e3e3;
+    border-color: #383838;
+    border: 1px solid;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.uname-color {
+    color: #0080ee;
+}
+
+.main-content-text {
+    color: #ebdbb2
 }
 
 hr {
